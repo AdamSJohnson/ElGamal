@@ -1,0 +1,8 @@
+CIS 475 Introduction to  Cryptography Assignment 4 Spring 2018
+1. Implement elgamal in a language of your choice. Encrypt this plain text using your own elgamal keys.
+2. Submit the encrypted cipher along with the ElGamal keys used to encrypt this plaintext .
+3. For assignment 5,  Write a simple socket-based chat program that uses ElGamal with DES or AES (your choice). 
+   As usual, allow the user to specify the bit-length for the prime used in ElGamal and also
+   the secret key for DES/AES. Implement a system that simply encrypts single ASCII characters. 
+   Arrange for an online demonstration of your program. 
+You may work in groups of at most two for this part of the assignment.
