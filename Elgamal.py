@@ -105,7 +105,7 @@ def elgamal_generate_keys():
 
     #generate my public half
     g_a = pow(g,a,p)
-
+    '''
     #make pub key file (Epub.keys)
     nfile = open('Epub.keys', 'w')
     
@@ -118,6 +118,8 @@ def elgamal_generate_keys():
     nfile.write(line)
     line = ('a = ' + str(a)+ '\n')
     nfile.write(line)
+    '''
+    return (p,g,a,g_a)
 
 def encrypt_with_keys():
     #parse file and get values 
